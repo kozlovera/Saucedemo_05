@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+import webdriver_manager
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service as ChromiumService
