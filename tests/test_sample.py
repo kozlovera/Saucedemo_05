@@ -26,6 +26,10 @@ class TestSample:
     def test_login_skip(self):
         pass
 
+    @pytest.mark.skip(reason="test is skipped because, ")
+    def test_login_skip(self):
+        pass
+
     '''
     Example of xfail test
     '''
